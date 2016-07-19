@@ -1,0 +1,4 @@
+Poker hands and poker hands primitives
+Collections
+Tuples vs lists
+__str__ or __repr__?
