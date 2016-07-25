@@ -1,0 +1,10 @@
+#! usr/bin/env python3
+
+from random import shuffle
+
+class Card:
+  def __init__(self, symbol, value):
+    self.symbol = symbol
+    self.value = value
+
+
