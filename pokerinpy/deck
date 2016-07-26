@@ -13,7 +13,7 @@ class Card:
             return 0
         return 1
     
-    def __str__(self):
+  def __str__(self):
         text = ""
         if self.value < 0:
             return "Joker";
@@ -93,4 +93,3 @@ class deck:
     
     def cards_left(self):
         return len(self.cards)
-:
