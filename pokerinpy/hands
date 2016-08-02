@@ -61,6 +61,17 @@ class poker_hand:
         enumeration = "/".join([str(x) for x in self.card_list])
         return "{enumeration} ({short_desc})".format(**locals())
 
+    def is_straight(self):
+        pass
+        return false
+
+    def is_flush(self):
+        pass
+        return false
+
+    def is_straight_flush(self):
+        return (self.is_straight() and self.is_flush())
+
 class deck(set):
     def __init__(self):
         for numeral, suit in itertools.product(NUMERAL_LIST, SUIT_LIST):
